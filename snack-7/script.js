@@ -37,6 +37,6 @@ const students = [
 // console.log(studenteId2);
 
 
-const studente2 = students.filter((student) => student.id === 2);
+const studente2 = students.find((student) => student.id === 2);
 
 console.log(studente2);

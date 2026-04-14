@@ -14,8 +14,8 @@ const people = [
 //   console.log(name.name);
 // }
 
-const namePeople = people.map(function (name) {
-  return name.name;
+const namePeople = people.map(function (person) {
+  return person.name;
 });
 
 console.log(namePeople);

@@ -19,8 +19,8 @@ const posts = [
 // }
 // console.log(autori);
 
-const autori = posts.map(function (name) {
-  return name.author;
+const autori = posts.map(function (post) {
+  return post.author;
 })
 
 console.log(autori);

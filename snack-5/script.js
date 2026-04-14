@@ -26,4 +26,5 @@ const numPari = nums.map(function (num) {
 
 
 const numePari = nums.filter((num) => num % 2 === 0);
+
 console.log(numePari);

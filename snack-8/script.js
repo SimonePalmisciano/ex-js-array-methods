@@ -34,11 +34,7 @@ const students = [
 // }
 // console.log(classeMarco);
 
-function marcoClass (studente) {
-  return studente.class;
-}
-
-const classeMarco = students.filter(marcoClass);
+const classeMarco = students.find((student) => student === 'Marco Lanci');
 
 // students.filter((student) => student.name === 'Marco Lanci'); // così restituisce tutto lo studente
 

@@ -21,3 +21,25 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+
+// CLASSICO CICLO FOR
+// const classeMarco = [];
+// for (let z = 0; z < students.length; z++) {
+//   const element = students[z];
+  
+//   if (element.name === 'Marco Lanci') {
+//     classeMarco.push(element.class)
+//   }
+// }
+// console.log(classeMarco);
+
+function marcoClass (studente) {
+  return studente.class;
+}
+
+const classeMarco = students.filter(marcoClass);
+
+// students.filter((student) => student.name === 'Marco Lanci'); // così restituisce tutto lo studente
+
+console.log(classeMarco);

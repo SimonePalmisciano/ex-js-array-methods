@@ -6,3 +6,16 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+
+// normale ciclo for
+// for (let z = 0; z < people.length; z++) {
+//   const name = people[z];
+//   console.log(name.name);
+// }
+
+const namePeople = people.map(function (name) {
+  return name.name;
+});
+
+console.log(namePeople);
